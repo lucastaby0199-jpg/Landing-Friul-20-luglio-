@@ -169,8 +169,11 @@
     clip-path:polygon(12% 0, 100% 0, 100% 100%, 0 100%);
   }
   .hero-logo{
-    height:clamp(64px,7.5vw,120px);
+    align-self:flex-start;
+    flex-shrink:0;
+    height:clamp(90px,12vw,190px);
     width:auto;
+    max-width:none;
     margin-bottom:30px;
   }
   .hero h1{
@@ -640,7 +643,7 @@
       max-width:100%;
       padding:40px 20px 28px 20px;
     }
-    .hero-logo{height:56px;}
+    .hero-logo{height:72px;}
   }
   @media (max-width:640px){
     section{padding:48px 0;}
